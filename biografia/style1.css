@@ -4,17 +4,26 @@
     box-sizing: border-box;
 }
 
-#navbar {
-    background-color: cornflowerblue;
-    padding: 5px 30px;
-    display: inline-flex;
-    width: 100%;
+body {
+    background: black;
 }
 
-.two_lines_item {
+header {
+    color: blanchedalmond;
+}
+
+#navbar {
+    background-color: rgb(95, 95, 95);
+    padding: 15px 30px;
+    display: inline-flex;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item {
     margin-right: 40px;
     list-style-type: none;
-    padding: 2px .3%;
+    padding: 10px .3%;
     text-align: center;
     width: 20%;
 }
@@ -29,17 +38,43 @@
     color: black;
 }
 
-.one_line_item {
-    margin-top: 1.5px;
-    margin-right: 40px;
-    list-style-type: none;
-    padding-top: 10px;
-    text-align: center;
-    width: 20%;
-}
-
 #current_item {
+    color: black;
     background-color: white;
     border-radius: 10px;
-    padding-top: 10px;
+}
+
+#fotoperfil {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+
+.principal {
+    color: cornsilk;
+    display: inline-flex;
+    width: 65%;
+}
+
+article {
+    margin: 20px 50px;
+    display: flex;
+}
+
+.barra_lateral {
+    float: right;
+    background-color: lightgrey;
+    padding: 35px 20px;
+    width: 30%;
+    border-radius: 25px;
+    margin: 20px;
+    box-shadow: 
+        inset 0 -3em 3em rgba(0,0,0,0.1), 
+            0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.barra_lateral li {
+    list-style-type: none;
 }
