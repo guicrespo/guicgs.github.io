@@ -1,8 +1,16 @@
 * {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 0;
     box-sizing: border-box;
-  }
+}
+
+/* @font-face {
+    font-family: 'keep_calm_medregular';
+    src: url("fontes/keepcalm-medium-webfont.woff2") format('woff2'),
+         url("fontes/keepcalm-medium-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
 
 body {
     background-color: rgba(41, 46, 30, 1);
@@ -20,10 +28,13 @@ body {
 
 #portfolio_barra {
     border-radius: 25px;
+    border: 1px;
+    border-color: rgb(219, 219, 219);
+    border-style: solid;
     font-size: 30px;
-    color: rgba(41, 46, 30, 1);
-    line-height: 70%;
-    background-color: rgb(211, 211, 211);
+    color: rgb(219, 219, 219);
+    line-height: 50%;
+    background-color: rgb(64, 0, 78);
     padding: 20px;
     margin: 20px;
     box-shadow: 
@@ -32,7 +43,7 @@ body {
 }
 
 #portfolio_barra:hover {
-    background:rgb(235, 233, 233);
+    background: rgb(111, 6, 134);
 }
 
 .menu {
@@ -100,7 +111,7 @@ a:link, a:visited, a:hover, a:active {
 
 footer {
     text-align: center;
-    margin-top: 80px;
+    margin: 10rem;
 }
 
 

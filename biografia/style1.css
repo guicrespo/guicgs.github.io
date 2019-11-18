@@ -1,36 +1,50 @@
 * {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    background: black;
+    background: rgba(41, 46, 30, 1);
 }
 
 header {
-    color: blanchedalmond;
+    color: rgb(219, 219, 219);
+}
+
+#titulo {
+    margin: 0 2rem;
+    padding: 0.5rem;
+    border: 0 0 0 10px;
+    border-style: hidden hidden hidden dashed;
+    border-color: rgba(126, 7, 153, 0.561);
+}
+
+#titulo a {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
 }
 
 #navbar {
-    background-color: rgb(95, 95, 95);
-    padding: 15px 30px;
+    background-color: rgba(126, 7, 153, 0.561);
+    padding: .5rem 1rem;
     display: inline-flex;
     width: 100%;
     border-radius: 10px;
 }
 
 .item {
-    margin-right: 40px;
+    margin-right: 1.2rem;
     list-style-type: none;
-    padding: 10px .3%;
+    padding: .3rem .3%;
     text-align: center;
     width: 20%;
 }
 
 #navbar li:hover {
-    background-color: white;
+    background-color: rgb(149, 8, 180);
     border-radius: 10px;
+    font-weight: bold;
 }
 
 #navbar li a {
@@ -40,39 +54,54 @@ header {
 
 #current_item {
     color: black;
-    background-color: white;
+    background-color: rgb(149, 8, 180);
     border-radius: 10px;
 }
 
-#fotoperfil {
-    object-fit: cover;
-    width: 150px;
-    height: 150px;
-    border-radius: 25px;
-    margin-bottom: 5px;
-}
-
 .principal {
-    color: cornsilk;
+    color: rgb(219, 219, 219);
     display: inline-flex;
     width: 65%;
 }
 
 article {
-    margin: 20px 50px;
+    margin: 7rem 3rem;
     display: flex;
+    line-height: 2rem;
+}
+
+#trybe {
+    color: rgb(15, 163, 107); 
+    text-decoration: none;
+    font-size: large;
+}
+
+#trybe:hover {
+    text-decoration: underline;
 }
 
 .barra_lateral {
     float: right;
-    background-color: lightgrey;
-    padding: 35px 20px;
+    background-color: rgba(127, 7, 153, 1);
+    padding: 1.5rem 1rem;
     width: 30%;
-    border-radius: 25px;
-    margin: 20px;
+    border-radius: 25px 5px 25px 5px;
+    margin: 1rem 2.5rem 1rem 1rem;
     box-shadow: 
         inset 0 -3em 3em rgba(0,0,0,0.1), 
             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+#fotoperfil {
+    object-fit: cover;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+}
+
+.barra_lateral div {
+    text-align: center;
 }
 
 .barra_lateral li {
