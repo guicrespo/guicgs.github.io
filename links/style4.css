@@ -1,0 +1,157 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(41, 46, 30, 1);
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
+
+#titulo {
+    color: rgb(219, 219, 219);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    margin: 0 2rem;
+    padding: 0.5rem;
+    border: 0 0 0 10px;
+    border-style: hidden hidden hidden dashed;
+    border-color: rgb(116, 143, 135);
+    background-color: rgba(41, 46, 30, 1);
+}
+
+#titulo a {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+}
+
+#titulo:hover {
+    border-color: rgba(211, 255, 243, 1);
+}
+
+.nav_bar {
+    overflow: hidden;
+    position: fixed;
+    top: 4.5rem;
+    width: 100%;
+}
+
+#navbar {
+    background-color: rgb(116, 143, 135);
+    padding: .5rem 1rem;
+    display: inline-flex;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item {
+    margin-right: 1.2rem;
+    list-style-type: none;
+    padding: .3rem .3%;
+    text-align: center;
+    width: 20%;
+}
+
+#navbar li:hover {
+    background-color: rgba(211, 255, 243, 1);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+#current_item {
+    color: black;
+    background-color: rgba(211, 255, 243, 1);
+    border-radius: 10px;
+}
+
+.principal {
+    color: rgb(219, 219, 219);
+    display: inline-flex;
+    width: 65%;
+}
+
+article {
+    margin: 15rem 3rem;
+    display: flex;
+    line-height: 2rem;
+}
+
+#trybe {
+    color: rgb(15, 163, 107); 
+    text-decoration: none;
+    font-size: large;
+}
+
+#trybe:hover {
+    text-decoration: underline;
+}
+
+#github {
+    color: rgba(175, 187, 242, 1); 
+    text-decoration: none;
+}
+
+#github:hover {
+    text-decoration: underline;
+}
+
+#pair_prog {
+    color: rgba(175, 187, 242, 1); 
+    text-decoration: none;
+}
+
+#pair_prog:hover {
+    text-decoration: underline;
+}
+
+#climate {
+    color: rgb(219, 219, 219); 
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+#pixabay {
+    color: rgb(219, 219, 219); 
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+.barra_lateral {
+    float: right;
+    background-color: rgba(211, 255, 243, 1);
+    padding: 1.5rem 3rem;
+    width: 30%;
+    border-radius: 25px 5px 25px 5px;
+    margin: 9rem 2.5rem 1rem 1rem;
+    box-shadow: 
+        inset 0 -3em 3em rgba(0,0,0,0.1), 
+            0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.github_title {
+    display: inline-flex;
+    float: right;
+    width: 100%;
+    font-size: 2rem;
+    margin: 1rem 1rem 2rem;
+}
+
+aside iframe {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    margin: 20rem 0 2rem;
+}
