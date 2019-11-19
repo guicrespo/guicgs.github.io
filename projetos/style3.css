@@ -115,10 +115,6 @@ article {
     text-decoration: underline;
 }
 
-#contagem_palavras {
-
-}
-
 #climate {
     color: rgb(219, 219, 219); 
     text-decoration: underline;
@@ -147,9 +143,21 @@ article {
     margin-top: 1rem;
 }
 
-#etc {
-    text-align: center;
+.github_title {
+    display: inline-flex;
+    float: right;
+    width: 60%;
+    font-size: 2.7rem;
+    margin-top: 1rem;
 }
+
+.github_img {
+    display: inline-flex;
+    width: 40%;
+    margin-bottom: 1.5rem;
+}
+
+
 
 footer {
     text-align: center;
