@@ -22,7 +22,7 @@ a:link, a:visited, a:hover, a:active {
     padding: 0.5rem;
     border: 0 0 0 10px;
     border-style: hidden hidden hidden dashed;
-    border-color: rgb(84, 4, 102);
+    border-color: rgb(101, 109, 141);
     background-color: rgba(41, 46, 30, 1);
 }
 
@@ -32,7 +32,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #titulo:hover {
-    border-color: rgb(149, 8, 180);
+    border-color: rgba(175, 187, 242, 1);
 }
 
 .nav_bar {
@@ -43,7 +43,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #navbar {
-    background-color: rgb(84, 4, 102);
+    background-color: rgb(101, 109, 141);
     padding: .5rem 1rem;
     display: inline-flex;
     width: 100%;
@@ -59,7 +59,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #navbar li:hover {
-    background-color: rgb(149, 8, 180);
+    background-color: rgba(175, 187, 242, 1);
     border-radius: 10px;
     font-weight: bold;
 }
@@ -71,7 +71,7 @@ a:link, a:visited, a:hover, a:active {
 
 #current_item {
     color: black;
-    background-color: rgb(149, 8, 180);
+    background-color: rgba(175, 187, 242, 1);
     border-radius: 10px;
 }
 
@@ -97,10 +97,44 @@ article {
     text-decoration: underline;
 }
 
+#github {
+    color: rgba(175, 187, 242, 1); 
+    text-decoration: none;
+}
+
+#github:hover {
+    text-decoration: underline;
+}
+
+#pair_prog {
+    color: rgba(175, 187, 242, 1); 
+    text-decoration: none;
+}
+
+#pair_prog:hover {
+    text-decoration: underline;
+}
+
+#contagem_palavras {
+
+}
+
+#climate {
+    color: rgb(219, 219, 219); 
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+#pixabay {
+    color: rgb(219, 219, 219); 
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
 .barra_lateral {
     float: right;
-    background-color: rgba(127, 7, 153, 1);
-    padding: 1.5rem 1rem;
+    background-color: rgba(175, 187, 242, 1);
+    padding: 1.5rem 3rem;
     width: 30%;
     border-radius: 25px 5px 25px 5px;
     margin: 9rem 2.5rem 1rem 1rem;
@@ -109,20 +143,12 @@ article {
             0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 
-#fotoperfil {
-    object-fit: cover;
-    width: 10rem;
-    height: 10rem;
-    border-radius: 25px;
-    margin-bottom: 1rem;
+.barra_lateral ul {
+    margin-top: 1rem;
 }
 
-.barra_lateral div {
+#etc {
     text-align: center;
-}
-
-.barra_lateral li {
-    list-style-type: none;
 }
 
 footer {

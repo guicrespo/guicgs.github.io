@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-/* @font-face {
-    font-family: 'keep_calm_medregular';
-    src: url("fontes/keepcalm-medium-webfont.woff2") format('woff2'),
-         url("fontes/keepcalm-medium-webfont.woff") format('woff');
-    font-weight: normal;
-    font-style: normal;
-} */
-
 body {
     background-color: rgba(41, 46, 30, 1);
 }
@@ -114,6 +106,14 @@ footer {
     margin: 10rem;
 }
 
+
+/* @font-face {
+    font-family: 'keep_calm_medregular';
+    src: url("fontes/keepcalm-medium-webfont.woff2") format('woff2'),
+         url("fontes/keepcalm-medium-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+} p/ fonte externa */
 
 /* #content {
     clear: both;
