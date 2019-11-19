@@ -82,7 +82,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 article {
-    margin: 15rem 3rem;
+    margin: 15rem 3rem 0;
     display: flex;
     line-height: 2rem;
 }
@@ -127,5 +127,6 @@ article {
 
 footer {
     text-align: center;
-    margin: 8rem 10rem 2.5rem 10rem;
+    /* margin: 20rem 10rem 2.5rem 10rem; */
+    margin: 30rem 0 2rem;
 }
