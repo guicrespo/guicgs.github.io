@@ -78,7 +78,7 @@ a:link, a:visited, a:hover, a:active {
 .principal {
     color: rgb(219, 219, 219);
     display: inline-flex;
-    width: 65%;
+    width: 60%;
 }
 
 article {
@@ -100,7 +100,7 @@ article {
 .barra_lateral {
     float: right;
     background-color: rgba(127, 7, 153, 1);
-    padding: 1.5rem 1rem;
+    padding: 3.5rem 1rem;
     width: 30%;
     border-radius: 25px 5px 25px 5px;
     margin: 9rem 2.5rem 1rem 1rem;
@@ -111,10 +111,10 @@ article {
 
 #fotoperfil {
     object-fit: cover;
-    width: 10rem;
-    height: 10rem;
+    width: 70%;
+    height: 70%;
     border-radius: 25px;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .barra_lateral div {

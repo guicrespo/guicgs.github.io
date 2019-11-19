@@ -139,22 +139,16 @@ article {
             0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 
-.barra_lateral ul {
-    margin-top: 1rem;
-}
-
 .github_title {
     display: inline-flex;
     float: right;
-    width: 60%;
-    font-size: 2.7rem;
-    margin-top: 1rem;
+    width: 100%;
+    font-size: 2rem;
+    margin: 1rem 1rem 2rem;
 }
 
-.github_img {
-    display: inline-flex;
-    width: 40%;
-    margin-bottom: 1.5rem;
+aside iframe {
+    width: 100%;
 }
 
 footer {
